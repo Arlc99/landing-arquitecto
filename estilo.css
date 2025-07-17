@@ -32,6 +32,20 @@ body{
     background-color: #221d11;
     color: #FFFFFF;
 }
+
+
+.navbar-toggler {
+      background-color: #A4AC86;
+      border: 1px solid #414833;
+}
+
+.navbar-toggler:hover {
+      background-color: #e2ddd1;
+}
+
+.navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23414833' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 .collapse ul li a{
     color: #FFFFFF;
     text-decoration: none;
@@ -45,6 +59,11 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
+.container-fluid a:hover{
+    color: #EDE9E3;
+    font-size: 20px;
+    cursor: pointer;
+}
 .dos{
     display: flex;
     justify-content: end;
@@ -56,7 +75,12 @@ body{
     height: 100vh; /* Asegura que cubra toda la pantalla */
     color: #FFFFFF;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 .texto{
     display: block;
     justify-content: center;
@@ -73,6 +97,7 @@ body{
     padding: 30px;
     border-radius: 5px;
     width: 400px;
+    
 }
 .formulario form div{
     margin: 10px;
@@ -213,4 +238,14 @@ footer{
     margin: 20px;
     padding: 20px;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+.portada{
+    height: auto;
+}
+.formulario{
+    margin: 20px;
+    width: 90%;
+}
 }
