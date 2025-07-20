@@ -15,7 +15,7 @@ body{
 }
 
 
-.btn{
+.btn {
     background-color: #221d11;
     color:#FFFFFF; 
     padding: 0.5rem 1rem;
@@ -29,8 +29,8 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .my-navbar {
-    background-color: #221d11;
-    color: #FFFFFF;
+    background-color:#e2ddd1;
+    color: black;
 }
 
 
@@ -47,16 +47,16 @@ body{
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23414833' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .collapse ul li a{
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
 }
 .collapse ul li a:hover{
-    color: #FFFFFF;
+    color:#241F19;
     font-size: 20px;
     cursor: pointer;
 }
 .container-fluid a{
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
 }
 .container-fluid a:hover{
@@ -68,6 +68,66 @@ body{
     display: flex;
     justify-content: end;
 }
+.inicio{
+   color: #FFFFFF;
+    padding: 20px;
+   background-color: #241F19;
+     
+}
+.nombre{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.lema{
+    font-family: "Playfair Display", serif;
+    color: #EDE9E3;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.lema h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.lema p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.btn-2{
+    text-transform: uppercase;
+    background-color:#e2ddd1;
+    color:#221d11; 
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    
+}
+.btn-2:hover{
+    background-color: #A4AC86;
+    color: #EDE9E3;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 .portada{
     background: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), /* Overlay negro al 70% de opacidad */
@@ -191,7 +251,7 @@ body{
     background-color: #241F19;
     color: #FFFFFF;
     padding: 20px;
-    margin: 10px;
+  
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
       overflow: hidden;
 }
@@ -218,17 +278,22 @@ body{
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 20px;
   text-align: center;
-  align-items: center; 
+  
 
 }
 
 .text h3 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
     text-transform: uppercase;
+}
+.text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 .text i::after {
     content: "";
@@ -317,12 +382,40 @@ footer{
 
 .texto{
    
-    margin: 20px ;
+    margin: 10px ;
     padding: 20px;
 }
 .formulario{
     margin: 20px;
     width: 90%;
 
+
+}
+
+.collapse ul li i{
+  display: none;
+}
+.nombre{
+    font-size: 15px;
+}
+
+.lema h1{
+    font-size: 36px;    
+}
+.lema p{
+    font-size: 16px;
+}
+.collapse ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #A4AC86;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+.collapse ul li a:active{
+    background-color: #A4AC86;
+    color: #EDE9E3;
 }
 }
